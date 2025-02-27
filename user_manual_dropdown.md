@@ -91,7 +91,9 @@ Dưới đây là code mẫu cho widget lọc field `Project_Type`, với chú t
     ]
 }
 ```
-### Script (Scripts):
+### Edit Script (Scripts):
+// Vào BloX → bấm icon ⋮ (Option) → Chọn Edit Script
+Copy đoạn code sau 
 ```javascript
 widget.on('ready', (w, args) => {
     var tempFilter = 'Select All'; // Giá trị mặc định của dropdown
@@ -138,7 +140,19 @@ if (dropdown.length > 0) {
     console.log('Không tìm thấy dropdown với class:', dropdownClass); // Log nếu lỗi
 }
 ```
-## 4. Hướng dẫn Duplicate để lọc field mới
+## 4. Hướng dẫn thêm Widget mới
+Nếu muốn tạo widget mới Blox Dropdown Filter mới , làm theo các bước sau:
+### Bước 1: Tạo file Template
+Mở 1 trình biên dịch text, Copy toàn bộ nội dung trong JSON (Editor) phía trên, lưu file với định dạng json. Ví dụ Dropdown.json
+### Bước 2: Import Template
+Mở Blox → Design → bấm icon ⋮  → chọn Import Template
+Kéo file json vừa tạo vào vùng tải lên hoặc bấm browse điều hướng đến tệp và đặt tên cho template. Sau khi tải lên, bạn có thể tìm thấy danh sách mẫu của mình.
+### Bước 3: Chọn Template
+Blox → Design → Templates → All Template hoặc Recent Template, chọn Template mà bạn vừa đặt tên
+
+Sửa các giá trị như hướng dẫn, tạo **Custom Action** và **edit script** như trên 
+
+## 5. Hướng dẫn Duplicate widget để tạo thêm Filter từ field mới
 Nếu muốn tạo widget mới để lọc field khác (ví dụ: `Region`), làm theo các bước sau:
 
 ### Bước 1: Duplicate Widget
