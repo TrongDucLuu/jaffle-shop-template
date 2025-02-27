@@ -141,7 +141,7 @@ if (dropdown.length > 0) {
 }
 ```
 ## 4. Hướng dẫn thêm Widget mới
-Nếu muốn tạo widget mới Blox Dropdown Filter mới , làm theo các bước sau:
+Nếu muốn tạo mới widget Blox Dropdown Filter, làm theo các bước sau:
 ### Bước 1: Tạo file Template
 Mở 1 trình biên dịch text, Copy toàn bộ nội dung trong JSON (Editor) phía trên, lưu file với định dạng json. Ví dụ Dropdown.json
 ### Bước 2: Import Template
