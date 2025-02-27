@@ -189,13 +189,13 @@ widget.on('ready', (w, args) => {
 - Mở F12 → Network → bấm "Filter!" → tìm JAQL request.
 - Xác nhận `[Region]` trong `"FilterFields"` khớp với `dim` thật (ví dụ: `[Sales.Region]`).
 
-## 5. Lưu ý khi thêm Widget mới
+## 6. Lưu ý khi thêm Widget mới
 - **Class duy nhất**: Mỗi widget cần class riêng (như `Project_Type`, `Region`, ...).
 - **Custom Action chung**: `clear-choice` dùng được cho tất cả widget, chỉ cần `dropdownClass` đúng.
 - **Script riêng**: Mỗi widget cần script riêng với class tương ứng.
 - **Dimension chính xác**: Kiểm tra `dim` trong JAQL để `FilterFields` đúng.
 
-## 6. Cách kiểm tra
+## 7. Cách kiểm tra
 1. Thêm widget vào dashboard.
 2. Chọn giá trị → "Filter!" → xem dashboard lọc đúng.
 3. Bấm "Clear" → dashboard về "all", dropdown về "Select All".
